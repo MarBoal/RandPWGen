@@ -19,7 +19,7 @@ public class ReadCSVWithScanner {
             BufferedReader reader = new BufferedReader(new FileReader(filePath));
             while ((line = reader.readLine()) != null) {
                 PWData pw = new PWData();
-                String[] data = line.split(" ");
+                String[] data = line.split(",");
                 pw.setpw(data[0]);
                 pwData.add(pw);
             }
