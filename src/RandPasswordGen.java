@@ -1,4 +1,8 @@
-public class RandPasswordGen {
+import java.util.ArrayList;
 
-//eeeeeeeeeeeeeeeeeeeeeeeee
+public class RandPasswordGen {
+    public static void main(String args[]) {
+        ArrayList<String> PwVar = new ArrayList<String>();
+        
+    }
 }
