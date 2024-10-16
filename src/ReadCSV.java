@@ -7,8 +7,8 @@ public class ReadCSVWithScanner {
     public static void main(String[] args) {
         ReadCSVWithScanner test = new ReadCSVWithScanner();
         LinkedList<PWData> pwData = test.getPWFromCSV("./resources/passwords.csv");
-        for (PWData phonebookEntry: pwData) {
-            System.out.println(phonebookEntry);
+        for (PWData pwEntry: pwData) {
+            System.out.println(pwEntry);
         }
     }
 
