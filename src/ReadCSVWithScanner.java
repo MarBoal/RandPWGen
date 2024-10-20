@@ -27,6 +27,7 @@ public class ReadCSVWithScanner {
                 pw.setpw(data[0]);
                 pwDataList.add(pw);
             }
+            //checker here
         } catch (IOException e) {
             System.out.println("Error reading the file: " + e.getMessage());
         }
